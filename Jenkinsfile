@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Git Checkout') {
             steps {
-               git branch: 'main', url: 'https://github.com/datanlabs1/gcp-tf-jenkins.git'
+               git branch: 'main', url: 'https://github.com/datanlabs1/test-gcp-tf.git'
             }
         }
         
